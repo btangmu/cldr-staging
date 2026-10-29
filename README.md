@@ -4,11 +4,9 @@ This directory contains derived data from the [CLDR](https://github.com/unicode-
 
 ![maven](https://github.com/unicode-org/cldr-staging/workflows/maven/badge.svg)
 
-## Where are the charts?
+It also contains charts, [the HTML website summarizing the CLDR data](https://www.unicode.org/cldr/charts/latest). Read more about what the charts are in [the unicode documentation](https://cldr.unicode.org/index/charts)
 
-The `main` branch doesn't contain any charts, they are on the `charts/49` etc. branches. [See this link for charts](https://www.unicode.org/cldr/charts/latest). Read more about what the charts are in [the unicode documentation](https://cldr.unicode.org/index/charts). 
-
-For more about generating charts and the chart release process, see [Generating Charts](https://cldr.unicode.org/development/cldr-big-red-switch/generating-charts).
+See [Generating Charts](https://cldr.unicode.org/development/cldr-big-red-switch/generating-charts) for instructions on generating and deploying the charts.
 
 ## What is production data, where does it come from, why does this repo exist?
 
@@ -23,7 +21,7 @@ The [Survey Tool](https://cldr.unicode.org/index/survey-tool) is unrelated.
 
 ## Is this repo an official source for data?
 
-- NO. See <https://cldr.unicode.org/index/downloads> instead. This repository is guaranteed to mismatch the official download tags and zip files in certain cases.
+- No. See <https://cldr.unicode.org/index/downloads> instead. This repository is guaranteed to mismatch the official download tags and zip files in certain cases.
 
 ## Can I build production zips from this repo?
 
